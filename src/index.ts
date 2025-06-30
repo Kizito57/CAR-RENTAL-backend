@@ -29,7 +29,7 @@ if (!fs.existsSync(uploadsDir)) {
 }
 
 
-const PORT = 3000;
+const PORT = 8081;
 
 app.use(cors());
 app.use(express.json({limit:'10mb'})); // Middleware to parse JSON bodies
