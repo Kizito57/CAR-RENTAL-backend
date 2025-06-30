@@ -6,7 +6,7 @@
   import {drizzle} from "drizzle-orm/neon-http"
     import { neon } from "@neondatabase/serverless"
 
-  export const client = neon(process.env.Database_URL!)
+  export const client = neon(process.env.DATABASE_URL!)
 
 //   export const client = new Client({
 //       connectionString: process.env.Database_URL as string
