@@ -1,8 +1,9 @@
   import "dotenv/config"
 
-  import { drizzle } from "drizzle-orm/node-postgres"
+//   import { drizzle } from "drizzle-orm/node-postgres"
   import { Client } from "pg"
   import * as schema from "./schema"
+  import {drizzle} from "drizzle-orm/neon-http"
 
   export const client = new Client({
       connectionString: process.env.Database_URL as string
