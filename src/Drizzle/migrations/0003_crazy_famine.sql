@@ -1,0 +1,1 @@
+ALTER TABLE "car" ADD COLUMN "image_url" varchar(500) DEFAULT '';

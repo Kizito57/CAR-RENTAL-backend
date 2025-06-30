@@ -1,0 +1,1 @@
+ALTER TABLE "customer" ADD COLUMN "Role" varchar(20) DEFAULT 'customer' NOT NULL;
